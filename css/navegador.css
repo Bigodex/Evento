@@ -1,0 +1,49 @@
+/* Estilo da navegação no header */
+nav {
+    display: flex; /* Utiliza Flexbox para alinhar os itens dentro do nav */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do nav */
+    align-items: center; /* Centraliza verticalmente os itens dentro do nav */
+    margin-top: 10px; /* Adiciona uma margem superior de 10px */
+}
+
+nav ul {
+    display: flex; /* Utiliza Flexbox para exibir os itens da lista em linha */
+    list-style: none; /* Remove os marcadores da lista */
+    margin-bottom: 8px; /* Adiciona uma margem inferior de 8px */
+}
+
+nav ul li {
+    margin: 10px /* Adiciona uma margem de 10px em cima/embaixo e 15px nas laterais */
+}
+
+/* Links de navegação como botões */
+nav a {
+    text-decoration: none; /* Remove a sublinhado dos links */
+    color: #fff; /* Define a cor do texto como branco */
+    padding: 10px 20px; /* Adiciona um espaçamento interno de 10px em cima/embaixo e 20px nas laterais */
+    background-color: #252525; /* Define a cor de fundo dos links */
+    border-radius: 30px; /* Arredonda as bordas dos links */
+    display: flex; /* Utiliza Flexbox para alinhar o ícone e o texto */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o ícone e o texto verticalmente */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos na mudança de cor de fundo */
+}
+
+/* Ícones dentro dos botões */
+nav a img {
+    height: 25px; /* Define a altura da imagem para 20px */
+    margin-right: 8px; /* Adiciona um espaço de 8px à direita do ícone */
+}
+
+/* Texto de navegação */
+nav a span {
+    font-size: 16px; /* Define o tamanho da fonte como 16px */
+    font-weight: 500; /* Define a espessura da fonte como 500 (seminegrito) */
+    line-height: 0; /* Alinha verticalmente o texto ao centro */
+}
+
+/* Efeito de hover nos links de navegação */
+nav a:hover {
+    color: #ffffff; /* Mantém o texto branco ao passar o mouse */
+    background-color: #555CFC; /* Altera a cor de fundo para #555CFC ao passar o mouse */
+}

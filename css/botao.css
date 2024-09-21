@@ -1,0 +1,16 @@
+/* Estilo do botão "Saiba mais" */
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555CFC; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 30px; /* Borda arredondada */
+    font-size: 16px;
+    margin-top: 20px; /* Espaçamento entre o texto e o botão */
+    transition: background-color 0.3s ease;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #3A44F0; /* Cor de fundo ao passar o mouse */
+}

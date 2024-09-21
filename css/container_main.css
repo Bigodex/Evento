@@ -1,0 +1,30 @@
+/* Container principal do conteúdo */
+.content-container {
+    background-color: #252525;
+    display: flex;
+    gap: 80px; /* Espaça o conteúdo e a imagem */
+    align-items: center; /* Centraliza verticalmente */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 30px;
+    border-color: #555CFC;
+    box-shadow: 0 15px 30px rgb(0, 0, 0, 1);
+}
+
+/* Estilo do texto */
+.text-content {
+    max-width: 70%; /* Define a largura máxima do texto */
+    font-family: 'Roboto', sans-serif; /* Fonte ABNT */
+    font-size: 12pt; /* Tamanho da fonte ABNT */
+    line-height: 1.5; /* Espaçamento de 1,5 entre as linhas */
+    text-align: justify; /* Alinhamento justificado */
+    margin: 0 auto; /* Centraliza o texto no container */
+}
+
+
+/* Estilo da imagem */
+.jobu-image {
+    width: 130px; /* Ajusta o tamanho da imagem */
+    margin-left: 20px; /* Espaço entre o texto e a imagem */
+}
