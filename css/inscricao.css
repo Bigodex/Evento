@@ -1,0 +1,73 @@
+/* Container principal dos tickets */
+.container {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+/* Estilo dos cards */
+.ticket {
+    background-color: #252525;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+    margin-top: 10px;
+    height: 320px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 1);
+    justify-content: space-between;
+}
+
+/* Cabeçalho do ticket */
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo do titulo do card */
+.ticket h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo do preço */
+.price {
+    font-size: 20px;
+    color: #555CFC;
+    font-weight: bold;
+}
+
+/* Estilo texto do card */
+.ticket p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Estilo do botão */
+.btn {
+    background-color: #555CFC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    align-self: center;
+    width: fit-content;
+}
+
+/* Estilo Hover do botão */
+.btn:hover {
+    background-color: #4048cc;
+}

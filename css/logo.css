@@ -1,8 +1,9 @@
+/* Tamanho logo */
 .logo img {
     width: 70px;
 }
 
-/* Estilo da logo: agora ela vai ficar à esquerda */
+/* Posicionamento logo a esquerda */
 .logo {
     position: absolute;
     left: 15px; /* Margem de 15px da esquerda */

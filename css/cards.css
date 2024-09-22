@@ -1,8 +1,9 @@
+/*Estilo do container do card */
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 0px 20px;
 }
 
 /* Estilos de cada linha */
@@ -17,17 +18,20 @@
     justify-content: center;
 }
 
-/* Estilos de alinhamento para as outras linhas */
+/* Estilos de alinhamento para a linha 2 */
 .row2 {
     justify-content: center;
     gap: 100px;
 }
 
+/* Estilos de alinhamento para a linha 3 */
 .row3 {
     justify-content: center;
     gap: 100px;
 }
 
+
+/* Estilo dos Cards */
 .card {
     width: 190px;
     height: 254px;
@@ -42,6 +46,7 @@
     box-shadow: 0 0px 15px rgb(0, 0, 0, 1);
 }
 
+/* Estilo do Titulo do Card */
 .card h2 {
     z-index: 1;
     color: white;
@@ -49,8 +54,9 @@
     text-align: center;
 }
 
-.card img {
-    width: 2px;
+/* Estilo do Icone do Card */
+.card-icon {
+    width: 20px;
 }
 
 @keyframes rotBGimg {

@@ -11,6 +11,7 @@
     transition: background-color 0.3s ease;
 }
 
+/* Hover do botão "Saiba mais" */
 .btn-saiba-mais:hover {
     background-color: #3A44F0; /* Cor de fundo ao passar o mouse */
 }
