@@ -2,7 +2,6 @@
 .container {
     display: flex;
     gap: 4rem;
-    align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: row;
@@ -15,21 +14,18 @@
     border-radius: 30px;
     padding: 20px;
     text-align: left;
-    align-items: center;
     margin-top: 10px;
-    height: 320px;
+    height: 340px;
     width: 500px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 15px rgb(0, 0, 0, 1);
-    justify-content: space-between;
+    box-shadow: 0 0px 15px 4px rgba(85, 92, 252, 0.5);
 }
 
 /* Cabeçalho do ticket */
 .ticket-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
 }
 
@@ -43,7 +39,7 @@
 .price {
     font-size: 20px;
     color: #555CFC;
-    font-weight: bold;
+    align-self: flex-start;
 }
 
 /* Estilo texto do card */
@@ -51,6 +47,7 @@
     font-size: 16px;
     text-align: justify;
     line-height: 1.5;
+    margin-top: 10px;
 }
 
 /* Estilo do botão */
@@ -62,7 +59,7 @@
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 10px;
+    margin-top: auto;
     align-self: center;
     width: fit-content;
 }
