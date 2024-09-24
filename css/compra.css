@@ -79,3 +79,37 @@
     color: #fff;
     text-decoration: none; /* Remove o sublinhado do link */
 }
+
+/* Ajuste para tablets */
+@media (max-width: 768px) {
+    .purchase-form {
+        padding: 30px;
+        width: 90%; /* Reduz a largura em tablets */
+    }
+    
+    .botaocompra {
+        padding: 10px 100px; /* Ajusta o padding lateral */
+    }
+}
+
+/* Ajuste para celulares */
+@media (max-width: 480px) {
+    .purchase-form {
+        padding: 20px;
+        width: 100%; /* O formulário ocupa toda a largura da tela */
+    }
+
+    .botaocompra {
+        padding: 10px 20px; /* Reduz o padding lateral para telas pequenas */
+        width: 100%; /* O botão ocupa toda a largura em dispositivos móveis */
+        text-align: center;
+    }
+
+    .purchase-form h2 {
+        font-size: 20px; /* Reduz o tamanho da fonte para títulos */
+    }
+
+    .purchase-form p {
+        font-size: 14px; /* Reduz o tamanho da fonte para o texto */
+    }
+}

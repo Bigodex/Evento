@@ -112,3 +112,43 @@ main.contact {
     border-radius: 30px;
 }
 
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%; /* Ajusta a largura do formulário em tablets */
+        padding: 30px; /* Reduz o padding */
+    }
+
+    .contact-form h2 {
+        font-size: 20px; /* Reduz o tamanho do título */
+    }
+
+    .contact-form p {
+        font-size: 14px; /* Reduz o tamanho do texto */
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .contact-form {
+        width: 100%; /* O formulário ocupa toda a largura da tela */
+        padding: 20px; /* Reduz ainda mais o padding */
+    }
+
+    .contact-form h2 {
+        font-size: 18px; /* Ajusta o tamanho do título */
+    }
+
+    .contact-form p {
+        font-size: 12px; /* Reduz o tamanho do texto */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajusta o tamanho do botão */
+    }
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 14px; /* Reduz o tamanho da fonte nos inputs */
+    }
+}

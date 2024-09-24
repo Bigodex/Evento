@@ -81,3 +81,63 @@ a .botaocompra {
     font-size: 16px;
     margin-top: 40px;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+    .success-message {
+        padding: 30px;
+        max-width: 80%;
+    }
+
+    .success-message h1 {
+        font-size: 28px;
+    }
+
+    .success-message p {
+        font-size: 16px;
+    }
+
+    .botaocompra {
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .success-message {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .success-message h1 {
+        font-size: 24px;
+    }
+
+    .success-message p {
+        font-size: 14px;
+    }
+
+    .botaocompra {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .success-message {
+        padding: 15px;
+        max-width: 95%;
+    }
+
+    .success-message h1 {
+        font-size: 20px;
+    }
+
+    .success-message p {
+        font-size: 12px;
+    }
+
+    .botaocompra {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+}

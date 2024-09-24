@@ -15,3 +15,12 @@
 .btn-saiba-mais:hover {
     background-color: #3A44F0; /* Cor de fundo ao passar o mouse */
 }
+
+/* Tornando o botão mais responsivo em telas pequenas */
+@media (max-width: 600px) {
+    .btn-saiba-mais {
+        font-size: 14px; 
+        padding: 8px 16px; 
+        width: 100%; 
+    }
+}

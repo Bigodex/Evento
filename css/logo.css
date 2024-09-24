@@ -10,3 +10,34 @@
     top: 50%;
     transform: translateY(-50%); /* Centraliza verticalmente a logo */
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+    .logo img {
+        width: 60px;
+    }
+
+    .logo {
+        left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 50px;
+    }
+
+    .logo {
+        left: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 40px;
+    }
+
+    .logo {
+        left: 5px;
+    }
+}

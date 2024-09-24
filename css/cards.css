@@ -75,3 +75,40 @@
     inset: 5px;
     border-radius: 15px;
 }
+
+/* Tornando o layout responsivo */
+@media (max-width: 1024px) {
+    .row {
+        gap: 50px; /* Reduz o gap para telas médias */
+    }
+    .card {
+        width: 160px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        gap: 30px; /* Reduz o gap para telas menores */
+    }
+    .card {
+        width: 140px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        flex-direction: column; /* Cards empilhados em telas muito pequenas */
+        gap: 20px;
+    }
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        width: 100%; /* Ocupa toda a largura do container */
+        max-width: 300px; /* Limita o tamanho máximo do card */
+        height: auto;
+    }
+}

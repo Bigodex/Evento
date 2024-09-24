@@ -27,3 +27,39 @@
     width: 130px;
     margin-left: 20px;
 }
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px;
+    }
+    
+    .text-content {
+        max-width: 100%;
+        font-size: 11pt;
+    }
+
+    .jobu-image {
+        width: 100px;
+        margin-left: 0;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .content-container {
+        padding: 20px;
+    }
+
+    .text-content {
+        font-size: 10pt;
+        max-width: 100%;
+    }
+
+    .jobu-image {
+        width: 80px;
+        margin-left: 0;
+    }
+}
