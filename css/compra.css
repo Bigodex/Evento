@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.purchase-form {
+    background-color: #252525;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: left;
+    width: 500px;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 1);
+}
+
+.purchase-form h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.purchase-form p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #C1C1C1;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #555CFC;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 16px;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: #4048cc;
+}
+
+.botaocompra {
+    background-color: #555CFC;
+    color: white;
+    border: none;
+    padding: 10px 140px; /* Aumentei o padding lateral */
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 40px 0px 0px 0px; /* Centraliza o botão horizontalmente */
+    display: block; /* Necessário para centralizar o botão */
+    width: fit-content; /* Ajusta o botão ao conteúdo */
+    text-decoration: none; /* Garante que o sublinhado é removido */
+}
+
+.botaocompra:hover {
+    background-color: #4048cc;
+    text-decoration: none; /* Garante que o sublinhado não aparece ao passar o mouse */
+}
+
+.botaocompra a {
+    color: #fff;
+    text-decoration: none; /* Remove o sublinhado do link */
+}

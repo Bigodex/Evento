@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Ingressos</title>
+    <link rel="stylesheet" href="css/navegador.css">
+    <link rel="stylesheet" href="css/inscricao.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/container_main.css">
+    <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/compra.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.7-beta.19/jquery.inputmask.min.js"></script>
+    <script src="inputmask.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div class="logo">
+                        <img src="assets/icons/jobus/logo.svg" alt="Início">
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <div>
+                            <img src="assets/icons/home.svg" alt="Início">
+                            <span>Início</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="programacao.html">
+                        <div>
+                            <img src="assets/icons/calendario.svg" alt="Programação">
+                            <span>Programação</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="palestrantes.html">
+                        <div>
+                            <img src="assets/icons/microfone.svg" alt="Palestrantes">
+                            <span>Palestrantes</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="inscricao.html">
+                        <div>
+                            <img src="assets/icons/ticket.svg" alt="Inscrição">
+                            <span>Inscrição</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html">
+                        <div>
+                            <img src="assets/icons/envelope.svg" alt="Contato">
+                            <span>Contato</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="compra">
+        <div class="container">
+            <div class="purchase-form">
+                <h2 class="highlight">Compre seu Ingresso</h2>
+                <p>Preencha o formulário abaixo para adquirir seu ingresso para o evento.</p>
+        
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <label for="name">Nome Completo:</label>
+                        <input type="text" id="email" placeholder="Insira seu Nome Completo" />
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="example@seuemail.com" />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="ticket-type">Semestre do Curso:</label>
+                        <select id="ticket-type" name="ticket-type" required>
+                            <option value="">Qual semestre você está?</option>
+                            <option value="vip">1°, 2°, 3°, 4°, 5°</option>
+                            <option value="vip">6°, 7°, 8°</option>
+                            <option value="vip">9°, 10°</option>
+                        </select>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="ticket-type">Tipo de Ingresso:</label>
+                        <select id="ticket-type" name="ticket-type" required>
+                            <option value="">Qual seu tipo de ingresso?</option>
+                            <option value="vip">VIP</option>
+                            <option value="pista">Pista</option>
+                            <option value="arquibancada">Arquibancada</option>
+                        </select>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="quantity">Quantidade de Ingressos:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="0" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="payment-method">Método de Pagamento:</label>
+                        <select id="payment-method" name="payment-method" required>
+                            <option value="">Selecione o método de pagamento</option>
+                            <option value="pix">PIX</option>
+                            <option value="cartao">Cartão de Débito</option>
+                            <option value="cartao">Cartão de Crédito</option>
+                            <option value="boleto">Boleto Bancário</option>
+                        </select>
+                    </div>
+        
+                    <a href="sucesso.html" class="botaocompra">Comprar ingresso</a>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Matchtec. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

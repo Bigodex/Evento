@@ -19,7 +19,7 @@
     width: 500px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0px 15px 4px rgba(85, 92, 252, 0.5);
+    box-shadow: 0 0px 15px 10px rgba(85, 92, 252, 0.9);
 }
 
 /* Cabeçalho do ticket */
@@ -51,7 +51,7 @@
 }
 
 /* Estilo do botão */
-.btn {
+.botao {
     background-color: #555CFC;
     color: white;
     border: none;
@@ -62,9 +62,12 @@
     margin-top: auto;
     align-self: center;
     width: fit-content;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 /* Estilo Hover do botão */
-.btn:hover {
+.botao:hover {
     background-color: #4048cc;
+    text-decoration: none;
 }
